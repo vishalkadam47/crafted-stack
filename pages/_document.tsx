@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="Explore projects, contribute seamlessly, access insightful stats, effortlessly share, connect with a vibrant community, and showcase your work with a personalized portfolio."
+            content="Explore projects, effortlessly share, connect with a vibrant community, and showcase your work with a personalized portfolio."
           />
           <meta
             name="keywords"
@@ -24,15 +24,12 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://crafted-stack.vercel.app" />
           <meta
             property="og:title"
-            content="Supercharge your open-source contributions with projectmate.net"
+            content="The Union for VFX & Animation - INDIA"
           />
           <meta
             property="og:description"
-            content="Explore projects, contribute seamlessly, access insightful stats, effortlessly share, connect with a vibrant community, and showcase your work with a personalized portfolio."
+            content="Explore projects, effortlessly share, connect with a vibrant community, and showcase your work with a personalized portfolio."
           />
-          <meta property="og:image" content="/og.png" />
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://www.projectmate.net/" />
 
           {/* <script
             src="https://survei-feedback.vercel.app/scripts/survei.js"

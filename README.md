@@ -11,7 +11,7 @@ Discover open-source projects, connect with experienced maintainers, and collabo
 Check out the web app 🌏 : https://projectmate.net/
 <br>
 <br>
-<a href="https://www.projectmate.net/" target="_blank">
+<a href="https://crafted-stack.vercel.app/" target="_blank">
 <img width="1440" alt="LandingPage Screenshot" src="https://projectmate.net/landingpage-screenshot.png">
 </a>
 

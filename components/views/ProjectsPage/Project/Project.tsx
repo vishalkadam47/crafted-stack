@@ -68,13 +68,16 @@ export const Project: React.FC<ProjectProps & { handleToast: () => void }> =
 
       const handleContributeClick = () => {
         if (githubRepository) {
-          window.open(`${githubRepository}/?ref=projectmate.net`, '_blank');
+          window.open(
+            `${githubRepository}/?ref=crafted-stack.vercel.app`,
+            '_blank'
+          );
         }
       };
 
       const handleLiveClick = () => {
         if (liveUrl) {
-          window.open(`${liveUrl}/?ref=projectmate.net`, '_blank');
+          window.open(`${liveUrl}/?ref=crafted-stack.vercel.app`, '_blank');
         }
       };
 
