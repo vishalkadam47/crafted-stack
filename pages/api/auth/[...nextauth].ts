@@ -21,7 +21,7 @@ export const ProductionAuthOptions: NextAuthOptions = {
           },
         });
       } catch (error) {
-        console.error('Error updating username:', error);
+        // console.error('Error updating username:', error);
       }
 
       return Promise.resolve();

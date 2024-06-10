@@ -21,7 +21,7 @@ export const TopNavbar = () => {
   const { data, status } = useSession();
   const { openModal } = useAuthModal();
   return (
-    <div className="flex h-14 flex-row items-center justify-between px-4 backdrop-blur-sm">
+    <div className="flex flex-row items-center justify-between px-4 py-2 backdrop-blur-sm">
       <Logo route={'/'} />
       <section className="flex flex-row items-center gap-2">
         <DropdownMenu>

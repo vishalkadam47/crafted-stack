@@ -9,7 +9,7 @@ export const BUTTON_TEXT = Object.freeze({
   continueWithGoogle: 'Continue with Google',
   copy: 'Copy',
   singUp: 'Sign Up',
-  exploreProjects: 'Explore projects',
+  exploreProjects: 'Projects Dashboard',
   editProfile: 'Edit profile',
   gitHub: 'GitHub',
   linkedIn: 'LinkedIn',

@@ -1,73 +1,43 @@
-import Image from 'next/image';
-import { motion } from 'framer-motion';
 import React from 'react';
-import { InView } from 'react-intersection-observer';
-import { features } from '@/data';
+import { benefits } from '@/data';
 
 export const FeaturesComponent = () => {
-  const getFlexDirectionClass = (idx: number) => {
-    return idx % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse';
-  };
-
-  const featureVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.5, ease: 'easeInOut' },
-    },
-  };
-
   return (
-    <section className="px-4 md:px-8 xl:px-0" id="features">
-      <div className="mx-auto max-w-screen-lg">
-        <h2 className="mb-8 text-center text-2xl font-semibold md:text-3xl">
-          Explore Features
+    <section
+      id="benefits"
+      className="container space-y-6 bg-slate-50 py-8 dark:bg-transparent md:py-12 lg:py-24"
+    >
+      <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+        <h2 className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+          Benefits
         </h2>
-        <ul className="flex flex-col gap-8 md:gap-16">
-          {features.map((feature, idx) => (
-            <InView
-              key={idx}
-              triggerOnce
-              threshold={0.5}
-              rootMargin="0px 0px -10% 0px"
-            >
-              {({ inView, ref }) => (
-                <motion.li
-                  variants={featureVariants}
-                  initial="hidden"
-                  animate={inView ? 'visible' : 'hidden'}
-                  exit="hidden"
-                  ref={ref}
-                >
-                  <div
-                    className={`flex flex-col-reverse items-center gap-4 ${getFlexDirectionClass(
-                      idx
-                    )}`}
-                  >
-                    <div className="w-full md:w-1/2">
-                      <motion.h3 className="text-base font-semibold md:text-xl">
-                        {feature.title}
-                      </motion.h3>
-                      <motion.h4 className="text-sm font-light md:text-base">
-                        {feature.subTitle}
-                      </motion.h4>
-                    </div>
-                    <div className="w-full md:w-1/2">
-                      <Image
-                        src={feature.image}
-                        alt={feature.title}
-                        width={600}
-                        height={400}
-                        className="h-auto w-full"
-                      />
-                    </div>
-                  </div>
-                </motion.li>
-              )}
-            </InView>
-          ))}
-        </ul>
+        <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+          Here are some of the benefits of joining the Union.
+        </p>
+      </div>
+
+      <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
+        {benefits.map((benefit, index) => (
+          <div
+            key={index}
+            className="relative overflow-hidden rounded-lg border bg-background p-1"
+          >
+            <div className="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <div className="space-y-2">
+                <h3 className="font-bold">{benefit.title}</h3>
+                <p className="text-sm text-muted-foreground">
+                  {benefit.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="mx-auto text-center md:max-w-[58rem]">
+        <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+          To learn more about the Union, please Join Discord Server.
+        </p>
       </div>
     </section>
   );

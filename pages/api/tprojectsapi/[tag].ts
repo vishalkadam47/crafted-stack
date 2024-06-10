@@ -72,7 +72,7 @@ async function getPostById(tag: string | string[] | undefined) {
       where: {
         tags: {
           // Use Prisma's 'in' filter to find projects with tags matching any in the 'tags' array
-          hasEvery: tag,
+          hasEvery: Array.isArray(tag) ? tag : [tag],
         },
       },
       include: includeOption,

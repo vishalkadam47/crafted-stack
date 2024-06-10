@@ -6,21 +6,15 @@ import React, { useCallback } from 'react';
 
 const RightBar = () => {
   const { data: tags } = useGetAllTags();
-  // console.log("LINE AT 9" , tags);
-  // const allUniqueTag = tags?.results;
   const router = useRouter();
   const { tag } = router.query;
-  // console.log(tag);
-  // const [flag, setFlag] = useState(true);
-  // console.log("LINE AT 16" , flag);
   const handleClick = useCallback(
-    (e: any, tag: string) => {
+    (e: React.MouseEvent<HTMLButtonElement>, tag: string) => {
       e.stopPropagation();
       if (tag === router.query.tag) {
         router.push('/projects');
-        return; // Exit the function to avoid unnecessary state update
+        return;
       }
-      // Otherwise, navigate to the tag's page
       const url = `/tprojects/${tag}`;
       router.push(url);
     },

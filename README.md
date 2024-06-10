@@ -168,17 +168,15 @@ Figma design:
 
 ## Contributing Guidelines 📜
 
-Any contributions you make are truly appreciated, go to our [CONTRIBUTING.md](https://github.com/rohitdasu/projectmate/blob/main/CONTRIBUTING.md) file for more information on how to contribute.
+Any contributions you make are truly appreciated, go to our [CONTRIBUTING.md](https://github.com/vishalkadam47/crafted-stack/blob/dev/CONTRIBUTING.md) file for more information on how to contribute.
 
 ## Code of Conduct 📜
 
-View [CODE_OF_CONDUCT.md](https://github.com/rohitdasu/projectmate/blob/main/CODE_OF_CONDUCT.md)
+View [CODE_OF_CONDUCT.md](https://github.com/vishalkadam47/crafted-stack/blob/dev/CODE_OF_CONDUCT.md)
 
 ## Contributors ✨
 
-<a href="https://github.com/rohitdasu/projectmate/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rohitdasu/projectmate" />
-</a>
+![Contributors](https://github.com/vishalkadam47/crafted-stack/graphs/contributors)
 
 ## Support ⭐
 
@@ -186,4 +184,4 @@ Don't forget to support us by leaving a star ⭐
 
 ## License 📃
 
-projectmate is licensed under the MIT License - see the [LICENSE](https://github.com/rohitdasu/projectmate/blob/main/LICENSE) file for the details.
+craftedstack is licensed under the MIT License - see the [LICENSE](https://github.com/vishalkadam47/crafted-stack/blob/dev/LICENSE) file for the details.

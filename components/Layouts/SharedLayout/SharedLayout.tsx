@@ -39,7 +39,7 @@ export const SharedLayout: FC<SharedLayoutProps> = ({
   return (
     <div className="flex min-h-dvh w-full flex-col">
       <Head>
-        <title>{`${title} | Projectmate`}</title>
+        <title>{`${title} | CraftedStack`}</title>
         {favicons.map((favicon, index) => (
           <link key={index} {...favicon} />
         ))}

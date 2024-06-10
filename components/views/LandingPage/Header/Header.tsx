@@ -9,7 +9,7 @@ import {
 import { MoonIcon, SunIcon } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
-import { FaDiscord, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaDiscord, FaGithub } from 'react-icons/fa';
 import { Logo } from '@/components/Common/Logo';
 import { BUTTON_TEXT } from '@/components/Common/Constants/textLabels';
 
@@ -25,16 +25,13 @@ export const Header: FC<HeaderProps> = ({ homeRoute = '/' }) => {
         <Logo route={homeRoute} />
         <section className="flex items-center gap-2">
           <Link
-            href={'https://github.com/rohitdasu/projectmate'}
+            href={'https://github.com/vishalkadam47/crafted-stack/discussions'}
             target="_blank"
           >
             <FaGithub className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
           </Link>
-          <Link href={'https://discord.com/invite/FQtyMWFZQ9'} target="_blank">
+          <Link href={'https://discord.gg/pg6fG6jE'} target="_blank">
             <FaDiscord className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
-          </Link>
-          <Link href={'https://twitter.com/projectmateHQ'} target="_blank">
-            <FaTwitter className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
           </Link>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>

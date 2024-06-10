@@ -31,13 +31,10 @@ const generateSitemap = async () => {
   const sitemapXML = await streamToPromise(sitemap)
     .then((data) => data.toString())
     .catch((error) => {
-      console.error('Error converting stream to promise:', error);
-      return '';
+      throw new Error(`Error converting stream to promise: ${error.message}`);
     });
 
   fs.writeFileSync('./public/sitemap.xml', sitemapXML);
-
-  console.log('Sitemap created successfully!');
 };
 
 generateSitemap();

@@ -32,7 +32,7 @@ export const Footer = () => {
   const currentYear = currentDate.getFullYear();
 
   return (
-    <footer className="bg-gray-100 text-black dark:bg-gray-900 dark:text-white">
+    <footer className="bg-black text-white dark:bg-black dark:text-white">
       <div className="mx-auto max-w-screen-lg px-4 py-8 md:px-8 xl:px-0">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Connect with Us */}
@@ -84,7 +84,7 @@ export const Footer = () => {
           {/* Developers */}
           <div>
             <h2 className="mb-4 text-base font-normal dark:text-gray-300 md:text-lg">
-              Developed by
+              Designed by
             </h2>
             <div className="mb-4 flex flex-col items-start">
               <div className="flex flex-wrap items-center gap-2">
@@ -105,31 +105,27 @@ export const Footer = () => {
                     </Link>
                   </div>
                 ))}
-                <Link
-                  href="https://github.com/rohitdasu/projectmate/graphs/contributors"
+                {/* <Link
+                  href="https://github.com/vishalkadam47/crafted-stack/graphs/contributors"
                   target="_blank"
                 >
                   <span className="text-sm text-blue-600 dark:text-blue-400">
                     and others
                   </span>
+                </Link> */}
+                <Link
+                  href="https://www.buymeacoffee.com/vishalkadam47"
+                  target="_blank"
+                  className="mt-5 animate-buttonheartbeat rounded-full border p-2 shadow hover:cursor-pointer hover:bg-[#FFDC03]/80"
+                >
+                  <SiBuymeacoffee className="h-4 w-4" />
                 </Link>
               </div>
             </div>
-            <Link
-              href="https://www.buymeacoffee.com/rohit.dasu"
-              target="_blank"
-            >
-              <section className="flex max-w-fit flex-row items-center gap-1 rounded-lg bg-[#FFDC03] px-4 py-3 shadow hover:bg-[#FFDC03]/80">
-                <SiBuymeacoffee className="text-xl text-black md:text-2xl" />
-                <span className="font-[Cookie] text-xl text-black md:text-2xl">
-                  Buy me a coffee
-                </span>
-              </section>
-            </Link>
           </div>
         </div>
         <div className="mt-10 text-center text-sm font-normal text-black/70 dark:text-white/70">
-          <p>©️ projectmate {currentYear}</p>
+          <p>©️ The Union for VFX & Animation - INDIA - {currentYear}</p>
         </div>
       </div>
     </footer>

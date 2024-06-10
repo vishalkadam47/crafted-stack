@@ -19,9 +19,9 @@ export default class MyDocument extends Document {
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
           <meta name="revisit-after" content="2 days" />
-          <meta name="author" content="Rohit Dasu" />
+          <meta name="author" content="Vishal Kadam" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.projectmate.net/" />
+          <meta property="og:url" content="https://crafted-stack.vercel.app" />
           <meta
             property="og:title"
             content="Supercharge your open-source contributions with projectmate.net"
@@ -33,17 +33,8 @@ export default class MyDocument extends Document {
           <meta property="og:image" content="/og.png" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://www.projectmate.net/" />
-          <meta
-            property="twitter:title"
-            content="Supercharge your open-source contributions with projectmate.net"
-          />
-          <meta
-            property="twitter:description"
-            content="Explore projects, contribute seamlessly, access insightful stats, effortlessly share, connect with a vibrant community, and showcase your work with a personalized portfolio."
-          />
-          <meta property="twitter:image" content="/og.png" />
 
-          <script
+          {/* <script
             src="https://survei-feedback.vercel.app/scripts/survei.js"
             data-widget="feedbackform1"
             data-survei-id="661d54a06635b504822c38e0"
@@ -54,7 +45,7 @@ export default class MyDocument extends Document {
             data-trigger-text="Feedback"
             data-input-label="What did you like or dislike?"
             defer
-          ></script>
+          ></script> */}
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

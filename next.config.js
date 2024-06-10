@@ -20,7 +20,7 @@ module.exports = withBundleAnalyzer({
       'lh3.googleusercontent.com',
       'avatars.dicebear.com',
       'api.producthunt.com',
-      'projectmate.net',
+      'crafted-stack.vercel.app',
     ],
   },
 });

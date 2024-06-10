@@ -8,7 +8,6 @@ export const tags = [
   'Github',
   'Stats',
   'Profile',
-  'projectmate.net',
 ];
 
 export const usefulLinks = [
@@ -29,7 +28,7 @@ export const usefulLinks = [
 export const legalLinks = [
   {
     name: 'MIT License',
-    link: 'https://github.com/rohitdasu/projectmate/blob/main/LICENSE',
+    link: 'https://github.com/vishalkadam47/crafted-stack/blob/dev/LICENSE',
     target: '_blank',
   },
   {
@@ -49,18 +48,12 @@ export const icons: Icon[] = [
     id: '1',
     name: 'GitHub',
     color: '#ffffff',
-    link: 'https://github.com/rohitdasu/projectmate',
+    link: 'https://github.com/vishalkadam47/crafted-stack/discussions',
   },
   {
     id: '2',
     name: 'Discord',
     color: '#ffffff',
-    link: 'https://discord.com/invite/FQtyMWFZQ9',
-  },
-  {
-    id: '3',
-    name: 'Twitter',
-    color: '#ffffff',
-    link: 'https://twitter.com/projectmateHQ',
+    link: 'https://discord.gg/pg6fG6jE',
   },
 ];

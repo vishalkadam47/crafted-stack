@@ -23,7 +23,7 @@ export const AuthModal = () => {
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>
             <DialogTitle className="flex justify-center text-xl">
-              projectmate
+              Crafted Stack
             </DialogTitle>
             <DialogDescription className="flex justify-center">
               Continue with your social accounts

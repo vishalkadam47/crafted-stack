@@ -3,10 +3,10 @@ import Head from 'next/head';
 import type { GetServerSideProps, NextPage } from 'next';
 import {
   HeroComponent,
+  AboutComponent,
   ActionComponent,
   Header,
   Footer,
-  VideoDemo,
   FeaturesComponent,
   FAQ,
 } from '@/components/views/LandingPage';
@@ -30,7 +30,7 @@ const Home: NextPage<HomeProps> = ({ userCount, randomUsers }) => {
   return (
     <>
       <Head>
-        <title>Projectmate</title>
+        <title>CraftedStack</title>
         {favicons.map((favicon, index) => (
           <link key={index} {...favicon} />
         ))}
@@ -38,7 +38,7 @@ const Home: NextPage<HomeProps> = ({ userCount, randomUsers }) => {
       <Header />
       <main className="my-16 flex flex-col gap-16 md:my-32 md:gap-32">
         <HeroComponent userCount={userCount} randomUsers={randomUsers} />
-        <VideoDemo />
+        <AboutComponent />
         <FeaturesComponent />
         <ActionComponent />
         <FAQ />
@@ -60,7 +60,14 @@ export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
         username: true,
       },
     });
-    const randomUsers = shuffleArray(allUsers).slice(0, 4);
+    const randomUsers = shuffleArray(allUsers)
+      .slice(0, 4)
+      .map((user) => ({
+        id: user.id,
+        name: user.name || '',
+        image: user.image || '',
+        username: user.username || '',
+      }));
 
     return {
       props: {
@@ -78,7 +85,7 @@ export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
   }
 };
 
-function shuffleArray(array: any[]) {
+function shuffleArray<T>(array: T[]): T[] {
   const shuffledArray = array.slice();
   for (let i = shuffledArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
