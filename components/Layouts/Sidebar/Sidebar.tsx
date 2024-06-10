@@ -121,7 +121,7 @@ export const Sidebar = () => {
                 Become a Gold Member
                 <Verified
                   fill="#F87315"
-                  className="inline-block h-5 animate-wiggle text-white"
+                  className="animate-wiggle inline-block h-5 text-white"
                 />
               </p>
             </TooltipTrigger>
