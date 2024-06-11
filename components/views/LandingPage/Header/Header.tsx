@@ -30,7 +30,7 @@ export const Header: FC<HeaderProps> = ({ homeRoute = '/' }) => {
           >
             <FaGithub className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
           </Link>
-          <Link href={'https://discord.gg/pg6fG6jE'} target="_blank">
+          <Link href={'https://discord.gg/R7mNPvfZGD'} target="_blank">
             <FaDiscord className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
           </Link>
           <DropdownMenu>

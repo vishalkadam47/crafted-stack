@@ -38,7 +38,7 @@ export const HeroComponent = ({
             </Button>
           </Link>
           <Link
-            href="https://discord.gg/pg6fG6jE"
+            href="https://discord.gg/R7mNPvfZGD"
             target="_blank"
             className="mt-5"
           >

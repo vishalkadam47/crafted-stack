@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --ext .js,.jsx,.ts,.tsx",
-    "prepare": "husky install",
+    "prepare": "husky",
     "seed": "npx prisma db seed",
     "prettier-fix": "prettier --write '**/*.{js,jsx,ts,tsx,css,md,json,html}'",
     "generate-sitemap": "ts-node --project tsconfig.sitemap.json lib/generateSitemap.ts"
