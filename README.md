@@ -1,30 +1,21 @@
 <div align="left">
-  <h1>PROJECTMATE - Supercharge your open-source contributions</h1>
+  <h1>CRAFTED-STACK - The Union for VFX & Animation - INDIA</h1>
 </div>
 
-![COVER-PROJECTMATE](https://projectmate.net/og.png)
-
-Discover open-source projects, connect with experienced maintainers, and collaborate with a community of passionate contributors. Join over 200+ registered users who are already making a difference
+Discover projects, connect with experienced, and collaborate with a community of passionate Artists.
 
 ## Demo
 
-Check out the web app 🌏 : https://projectmate.net/
+Check out the web app 🌏 : [Crafted-Stack](https://crafted-stack.vercel.app/)
 <br>
 <br>
-<a href="https://crafted-stack.vercel.app/" target="_blank">
-<img width="1440" alt="LandingPage Screenshot" src="https://projectmate.net/landingpage-screenshot.png">
-</a>
+
 
 ## Connect with us
 
-As a community, we always encourage people to share their thoughts and ideas. Do you want to talk to us? Join and Follow our Discord server and Twitter page ⬇️
+As a community, we always encourage people to share their thoughts and ideas. Do you want to talk to us? Join and Follow our Discord server ⬇️
 
-[![DISCORD - Join](https://img.shields.io/badge/DISCORD-Join-f3f6f4?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/FQtyMWFZQ9)
-[![TWITTER - Join](https://img.shields.io/badge/TWITTER-Follow-f3f6f4?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/projectmateHQ)
-
-Figma design:
-
-[![FIGMA - View](https://img.shields.io/badge/Figma-View-f3f6f4?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/file/3v3ckbS8o24Me4L93so4js/projectmate)
+[![DISCORD - Join](https://img.shields.io/badge/DISCORD-Join-f3f6f4?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/pg6fG6jE)
 
 ## Tech stack
 
@@ -32,12 +23,10 @@ Figma design:
 ![tailwind css](https://img.shields.io/badge/tailwind_css-f3f6f4?style=for-the-badge&logo=tailwindcss&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-f3f6f4?style=for-the-badge&logo=mongodb&logoColor=black)
 ![Prisma](https://img.shields.io/badge/Prisma-f3f6f4?style=for-the-badge&logo=prisma&logoColor=black)
-![Figma](https://img.shields.io/badge/Figma-f3f6f4?style=for-the-badge&logo=figma&logoColor=black)
 
 1. Frontend - **Next.js Client**
 2. CSS Framework - **Tailwind CSS**
 3. Backend - **NextJS APIs + Next Auth + MongoDB + Prisma ORM**
-4. Design & Prototype - **Figma**
 
 ## Installation steps
 
@@ -53,11 +42,11 @@ Figma design:
 
 2. Clone the project by running the following command on the terminal 🔽
    ```sh
-   git clone https://github.com/<your-github-username>/projectmate.git
+   git clone https://github.com/<your-github-username>/crafted-stack.git
    ```
 3. Go into the project directory 🔽
    ```sh
-   cd projectmate
+   cd crafted-stack
    ```
 4. Create an `.env` file from the `.env.template` file (copy everything in the `.env.template` file and put it in the `.env` file with appropriate values) 📄
 
@@ -96,11 +85,11 @@ Figma design:
 
 2. Clone the project by running the following command on the terminal 🔽
    ```sh
-   git clone https://github.com/<your-github-username>/projectmate.git
+   git clone https://github.com/<your-github-username>/crafted-stack.git
    ```
 3. Go into the project directory 🔽
    ```sh
-   cd projectmate
+   cd crafted-stack
    ```
 4. Create an `.env` file from the `.env.template` file (copy everything in the `.env.template` file and put it in the `.env` file with appropriate values) 📄
 
@@ -185,3 +174,9 @@ Don't forget to support us by leaving a star ⭐
 ## License 📃
 
 craftedstack is licensed under the MIT License - see the [LICENSE](https://github.com/vishalkadam47/crafted-stack/blob/dev/LICENSE) file for the details.
+
+## Credits
+[![Fork](https://img.shields.io/badge/fork-projectmate.net-brightgreen)](https://projectmate.net)
+
+This project is a fork of projectmate.net, maintained by [CRAFTED-STACK](https://github.com/vishalkadam47/crafted-stack)The Union for VFX & Animation - INDIA.
+
