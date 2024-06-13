@@ -95,7 +95,7 @@ export const Footer = () => {
                     key={index}
                   >
                     <Link
-                      href={`${maintainer.github}/?ref=crafted-stack.vercel.app`}
+                      href={`${maintainer.github}/?ref=uvai.vercel.app`}
                       target="_blank"
                     >
                       <Avatar className="h-8 w-8 md:h-10 md:w-10">

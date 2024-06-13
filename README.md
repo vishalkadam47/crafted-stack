@@ -6,10 +6,9 @@ Discover projects, connect with experienced, and collaborate with a community of
 
 ## Demo
 
-Check out the web app 🌏 : [Crafted-Stack](https://crafted-stack.vercel.app/)
+Check out the web app 🌏 : [UVAI](https://uvai.vercel.app/)
 <br>
 <br>
-
 
 ## Connect with us
 
@@ -176,7 +175,7 @@ Don't forget to support us by leaving a star ⭐
 craftedstack is licensed under the MIT License - see the [LICENSE](https://github.com/vishalkadam47/crafted-stack/blob/dev/LICENSE) file for the details.
 
 ## Credits
+
 [![Fork](https://img.shields.io/badge/fork-projectmate.net-brightgreen)](https://projectmate.net)
 
 This project is a fork of projectmate.net, maintained by [CRAFTED-STACK](https://github.com/vishalkadam47/crafted-stack)The Union for VFX & Animation - INDIA.
-

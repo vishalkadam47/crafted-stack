@@ -25,19 +25,19 @@ export const AboutComponent = () => {
               <CardTitle>Who We Are?</CardTitle>
               <br />
               <CardDescription className="text-left">
-                Crafted Stack is a union built by and for VFX & Animation
-                artists in India. We&apos;re a passionate community of artists
-                dedicated to empowering each other and advocating for a thriving
-                VFX & Animation industry.
+                UVAI is a union built by and for VFX & Animation artists in
+                India. We&apos;re a passionate community of artists dedicated to
+                empowering each other and advocating for a thriving VFX &
+                Animation industry.
               </CardDescription>
               <CardDescription className="text-left">
                 <strong>We are your voice:</strong>
                 <br />
-                Unlike a traditional organization, Crafted Stack is a collective
-                force driven by your needs and aspirations. We understand the
-                unique challenges faced by VFX and Animation artists in India.
-                Through collective action, we champion fair treatment,
-                competitive compensation, and a secure work environment.
+                Unlike a traditional organization, UVAI is a collective force
+                driven by your needs and aspirations. We understand the unique
+                challenges faced by VFX and Animation artists in India. Through
+                collective action, we champion fair treatment, competitive
+                compensation, and a secure work environment.
               </CardDescription>
               <CardDescription className="text-left">
                 <strong>We are your support system:</strong>
@@ -59,11 +59,11 @@ export const AboutComponent = () => {
                     trends, and job openings to stay informed.
                   </li>
                 </ul>
-                By joining Crafted Stack, you become part of a movement: We
-                believe a strong, united community is the key to achieving
-                positive change. By joining forces, we can negotiate better
-                working conditions, advocate for fair pay, and create an
-                environment where creativity flourishes.
+                By joining UVAI, you become part of a movement: We believe a
+                strong, united community is the key to achieving positive
+                change. By joining forces, we can negotiate better working
+                conditions, advocate for fair pay, and create an environment
+                where creativity flourishes.
                 <br />
               </CardDescription>
             </CardHeader>
@@ -75,13 +75,12 @@ export const AboutComponent = () => {
               <CardDescription className="text-left">
                 The Indian VFX & Animation industry is brimming with talent, yet
                 many artists face challenges that hinder their careers and
-                well-being. Here at Crafted Stack, we believe your artistic
-                passion deserves fair treatment, secure work environments, and
-                the opportunity to flourish.
+                well-being. Here at UVAI, we believe your artistic passion
+                deserves fair treatment, secure work environments, and the
+                opportunity to flourish.
               </CardDescription>
               <CardDescription className="text-left">
-                Here&apos;s why unionizing with Crafted Stack makes a
-                difference:
+                Here&apos;s why unionizing with UVAI makes a difference:
                 <ul className="list-disc pl-5">
                   <li>
                     Stand Up for Fair Pay: Negotiate for competitive salaries
@@ -90,8 +89,8 @@ export const AboutComponent = () => {
                     doesn&apos;t recognize your contributions.
                   </li>
                   <li>
-                    Combat Unpredictable Schedules: Crafted Stack fights for
-                    reasonable working hours with clear overtime policies. You
+                    Combat Unpredictable Schedules: UVAI fights for reasonable
+                    working hours with clear overtime policies. You
                     shouldn&apos;t have to sacrifice your personal life for your
                     career.
                   </li>
@@ -102,10 +101,10 @@ export const AboutComponent = () => {
                     decisions.
                   </li>
                   <li>
-                    Bridge the Gender Pay Gap: Crafted Stack advocates for equal
-                    pay for equal work, regardless of gender or background. We
-                    believe in a diverse and inclusive industry where talent is
-                    valued, not discriminated against.
+                    Bridge the Gender Pay Gap: UVAI advocates for equal pay for
+                    equal work, regardless of gender or background. We believe
+                    in a diverse and inclusive industry where talent is valued,
+                    not discriminated against.
                   </li>
                   <li>
                     Modernize the Industry: Unions push for industry-wide

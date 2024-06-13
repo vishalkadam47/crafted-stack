@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { User } from '@/pages';
-import { ArrowDown, ArrowRight, Star } from 'lucide-react';
+import { ArrowRight, Star } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -29,7 +29,7 @@ export const HeroComponent = ({
           services designed to empower you throughout your career journey.
         </p>
         <div className="flex items-center justify-center gap-3">
-          <Link href="/projects" className="mt-5">
+          <Link href="/mates" className="mt-5">
             <Button
               size="sm"
               className="animate-buttonheartbeat rounded-md bg-white text-sm font-semibold text-black hover:bg-white"
@@ -38,7 +38,7 @@ export const HeroComponent = ({
             </Button>
           </Link>
           <Link
-            href="https://discord.gg/R7mNPvfZGD"
+            href="https://discord.gg/39T9qaMpfn"
             target="_blank"
             className="mt-5"
           >
@@ -92,9 +92,9 @@ export const HeroComponent = ({
           </section>
         </section>
       </div>
-      <Link href="#FeaturesComponent" className="">
+      {/* <Link href="#AboutComponent" className="">
         <ArrowDown className="animate-bounce" />
-      </Link>
+      </Link> */}
     </section>
   );
 };

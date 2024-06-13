@@ -51,7 +51,7 @@ export const DevAuthOptions: NextAuthOptions = {
 
       async authorize() {
         const user = await prisma.user.findFirst({
-          where: { email: 'johndio@test.com' },
+          where: { email: 'uvai@dev.com' },
         });
         if (user) {
           return user;

@@ -45,7 +45,7 @@ export const ProfilePageProject = ({
         {liveUrl && (
           <Button asChild variant={'outline'} size={'sm'}>
             <Link
-              href={`${liveUrl}/?ref=crafted-stack.vercel.app`}
+              href={`${liveUrl}/?ref=uvai.vercel.app`}
               className="flex items-center gap-1"
               target="_blank"
             >

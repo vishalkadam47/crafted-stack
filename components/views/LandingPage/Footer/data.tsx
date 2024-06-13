@@ -54,6 +54,6 @@ export const icons: Icon[] = [
     id: '2',
     name: 'Discord',
     color: '#ffffff',
-    link: 'https://discord.gg/R7mNPvfZGD',
+    link: 'https://discord.gg/39T9qaMpfn',
   },
 ];

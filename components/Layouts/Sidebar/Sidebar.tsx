@@ -7,11 +7,11 @@ import { SessionLessCard } from './SessionLessCard';
 import { NavRoutes } from './data';
 import { useAuthModal } from '@/hooks/useAuthModal';
 import { Separator } from '@/components/ui/separator';
-import { Verified, Info, Loader } from 'lucide-react';
+// import { Verified, Info } from 'lucide-react';
 import { AddProjectModal } from '@/components/Modals/AddProjectModal';
 import { useAddProjectModal } from '@/hooks/useAddProjectModal';
 import { Button } from '@/components/ui/button';
-import { MoonIcon, SunIcon } from 'lucide-react';
+import { MoonIcon, SunIcon, Loader } from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,9 +20,9 @@ import {
 } from '@/components/ui/dropdown-menu';
 import {
   Tooltip,
-  TooltipContent,
+  // TooltipContent,
   TooltipProvider,
-  TooltipTrigger,
+  // TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { useTheme } from 'next-themes';
 import { useAppData } from '@/context/Common/CommonContext';
@@ -111,11 +111,11 @@ export const Sidebar = () => {
         })}
         <AddProjectModal email={session?.user?.email} />
         <li onClick={handleAddProject}>
-          <Button size="lg">{BUTTON_TEXT.addProject}</Button>
+          {/* <Button size="lg">{BUTTON_TEXT.addProject}</Button> */}
         </li>
         <TooltipProvider>
           <Tooltip>
-            <TooltipTrigger asChild>
+            {/* <TooltipTrigger asChild>
               <p className="flex items-center text-sm text-gray-500 dark:text-gray-300">
                 <Info className="inline-block h-4" />
                 Become a Gold Member
@@ -127,7 +127,7 @@ export const Sidebar = () => {
             </TooltipTrigger>
             <TooltipContent className="dark:bg-gray-900">
               Add project to become a Gold Member
-            </TooltipContent>
+            </TooltipContent> */}
           </Tooltip>
         </TooltipProvider>
       </ul>

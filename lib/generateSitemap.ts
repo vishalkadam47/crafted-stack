@@ -5,7 +5,7 @@ import { SitemapStream, streamToPromise } from 'sitemap';
 
 const generateSitemap = async () => {
   const sitemap = new SitemapStream({
-    hostname: 'https://crafted-stack.vercel.app',
+    hostname: 'https://uvai.vercel.app',
   });
 
   // Use the correct path to the 'pages' directory

@@ -68,16 +68,13 @@ export const Project: React.FC<ProjectProps & { handleToast: () => void }> =
 
       const handleContributeClick = () => {
         if (githubRepository) {
-          window.open(
-            `${githubRepository}/?ref=crafted-stack.vercel.app`,
-            '_blank'
-          );
+          window.open(`${githubRepository}/?ref=uvai.vercel.app`, '_blank');
         }
       };
 
       const handleLiveClick = () => {
         if (liveUrl) {
-          window.open(`${liveUrl}/?ref=crafted-stack.vercel.app`, '_blank');
+          window.open(`${liveUrl}/?ref=uvai.vercel.app`, '_blank');
         }
       };
 

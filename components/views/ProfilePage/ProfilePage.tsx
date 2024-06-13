@@ -407,7 +407,7 @@ export const ProfilePage = (data: ProfilePageProps) => {
                         <FormLabel>Title</FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="ex: Software Engineer | Developer"
+                            placeholder="ex: Modelling | Texturing"
                             {...field}
                           />
                         </FormControl>
@@ -423,7 +423,7 @@ export const ProfilePage = (data: ProfilePageProps) => {
                         <FormLabel>Description</FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="ex: Hey there, I'm a software Engineer from IND"
+                            placeholder="ex: Hey there, I'm a 3D Artist from IND"
                             {...field}
                           />
                         </FormControl>
@@ -439,7 +439,7 @@ export const ProfilePage = (data: ProfilePageProps) => {
                         <FormLabel>Skills / Interests</FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="ex: React.js, Open-Source"
+                            placeholder="ex: Maya, Mari, Photoshop"
                             {...field}
                           />
                         </FormControl>
@@ -516,7 +516,7 @@ export const ProfilePage = (data: ProfilePageProps) => {
                         <FormLabel>Website</FormLabel>
                         <FormControl>
                           <Input
-                            placeholder="https://rohitdasu.dev"
+                            placeholder="https://vishify.vercel.app"
                             {...field}
                           />
                         </FormControl>

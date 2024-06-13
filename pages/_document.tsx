@@ -16,12 +16,12 @@ export default class MyDocument extends Document {
             content="opensource, github, reactjs, nextjs, technology, portfolio, profile"
           />
           <meta name="robots" content="index,follow" />
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
           <meta name="revisit-after" content="2 days" />
           <meta name="author" content="Vishal Kadam" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://crafted-stack.vercel.app" />
+          <meta property="og:url" content="https://uvai.vercel.app" />
           <meta
             property="og:title"
             content="The Union for VFX & Animation - INDIA"

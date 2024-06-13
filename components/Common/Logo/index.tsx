@@ -9,7 +9,7 @@ export const Logo: FC<LogoProps> = ({ route }) => {
   return (
     <Link href={route}>
       <section className="relative flex items-center gap-1 text-lg font-bold uppercase md:text-2xl">
-        <p>Crafted Stack</p>
+        <p>UVAI</p>
       </section>
     </Link>
   );

@@ -43,26 +43,26 @@ export const maintainers = [
 export const faqData = [
   {
     id: 'item-1',
-    question: 'What is Crafted Stack?',
-    answer: `Crafted Stack is a union built by and for VFX & Animation artists in India. We empower artists throughout their careers by providing a comprehensive suite of services, fostering a supportive community, and advocating for fair treatment within the industry.  We believe that artistic talent deserves a strong voice and a secure foundation. That's why we offer benefits, resources, and a platform for connection to help VFX and Animation artists in India thrive.`,
+    question: 'What is UVAI?',
+    answer: `UVAI is a union built by and for VFX & Animation artists in India. We empower artists throughout their careers by providing a comprehensive suite of services, fostering a supportive community, and advocating for fair treatment within the industry.  We believe that artistic talent deserves a strong voice and a secure foundation. That's why we offer benefits, resources, and a platform for connection to help VFX and Animation artists in India thrive.`,
   },
   {
     id: 'item-2',
-    question: 'Who can join Crafted Stack?',
+    question: 'Who can join UVAI?',
     answer:
-      "Crafted Stack welcomes all VFX and Animation artists working in India, regardless of your experience level. Whether you're a seasoned veteran or just embarking on your creative journey, Crafted Stack has something to offer you. We believe in fostering a diverse and inclusive community where emerging talent can learn from experienced professionals, and everyone has the opportunity to connect, collaborate, and grow.",
+      "UVAI welcomes all VFX and Animation artists working in India, regardless of your experience level. Whether you're a seasoned veteran or just embarking on your creative journey, UVAI has something to offer you. We believe in fostering a diverse and inclusive community where emerging talent can learn from experienced professionals, and everyone has the opportunity to connect, collaborate, and grow.",
   },
   {
     id: 'item-3',
-    question: 'What are the benefits of joining Crafted Stack?',
+    question: 'What are the benefits of joining UVAI?',
     answer:
       'Empowerment: Benefits, skills development, advocacy, industry resources, and community connection.',
   },
   {
     id: 'item-4',
-    question: 'Why should I unionize with Crafted Stack?',
+    question: 'Why should I unionize with UVAI?',
     answer:
-      'Unionization provides a collective voice for VFX & Animation artists, allowing you to advocate for fair treatment, secure work environments, and better compensation.  Together, we can create a thriving industry where artistic talent is valued (See - Why Unionize with Crafted Stack? section for more details)',
+      'Unionization provides a collective voice for VFX & Animation artists, allowing you to advocate for fair treatment, secure work environments, and better compensation.  Together, we can create a thriving industry where artistic talent is valued (See - Why Unionize with UVAI? section for more details)',
   },
   {
     id: 'item-5',
@@ -112,6 +112,6 @@ export const benefits: BenefitItem[] = [
   {
     title: 'Community Connection',
     description:
-      'Network, collaborate, and share your passion with fellow VFX and animation artists in India. Crafted-Stack fosters a supportive environment for professional growth and creative exchange.',
+      'Network, collaborate, and share your passion with fellow VFX and animation artists in India. UVAI fosters a supportive environment for professional growth and creative exchange.',
   },
 ];

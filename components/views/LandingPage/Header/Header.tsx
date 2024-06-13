@@ -24,13 +24,20 @@ export const Header: FC<HeaderProps> = ({ homeRoute = '/' }) => {
       <div className="mx-auto flex h-14 max-w-screen-lg flex-row items-center justify-between md:h-20 md:px-8 xl:px-0">
         <Logo route={homeRoute} />
         <section className="flex items-center gap-2">
+          <Link href="/mates" legacyBehavior>
+            <a className="flex items-center text-black hover:text-black/60 dark:text-white dark:hover:text-white/60">
+              {/* <LayoutDashboard className="mr-1" /> */}
+              Dashboard
+            </a>
+          </Link>
+          <div className="separator mx-2 h-6 border-r border-gray-300"></div>{' '}
           <Link
             href={'https://github.com/vishalkadam47/crafted-stack/discussions'}
             target="_blank"
           >
             <FaGithub className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
           </Link>
-          <Link href={'https://discord.gg/R7mNPvfZGD'} target="_blank">
+          <Link href={'https://discord.gg/39T9qaMpfn'} target="_blank">
             <FaDiscord className="text-xl text-black hover:text-black/60 dark:text-white dark:hover:text-white/60 md:text-3xl" />
           </Link>
           <DropdownMenu>
