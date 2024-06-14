@@ -30,7 +30,7 @@ const Home: NextPage<HomeProps> = ({ userCount, randomUsers }) => {
   return (
     <>
       <Head>
-        <title>CraftedStack</title>
+        <title>UVAI</title>
         {favicons.map((favicon, index) => (
           <link key={index} {...favicon} />
         ))}

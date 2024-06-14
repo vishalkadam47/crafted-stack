@@ -15,12 +15,27 @@ module.exports = withBundleAnalyzer({
   },
   reactStrictMode: true,
   images: {
-    domains: [
-      'avatars.githubusercontent.com',
-      'lh3.googleusercontent.com',
-      'avatars.dicebear.com',
-      'api.producthunt.com',
-      'uvai.vercel.app',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'avatars.dicebear.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'api.producthunt.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'uvai.vercel.app',
+      },
     ],
   },
 });
